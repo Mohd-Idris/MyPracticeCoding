@@ -6,9 +6,10 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: "Poppins", sans-serif
+    font-family: "Poppins", sans-serif;
+    color:#EEEEEE
 }
-
+/* Header Styling  */
 header {
     display: flex;
     justify-content: space-between;
@@ -25,10 +26,10 @@ header {
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
-    color: #EEEEEE;
+    /* color: #EEEEEE; */
 }
 
-.logo span{
+.span{
     color: #00ADB5;
 }
 
@@ -44,11 +45,64 @@ header {
 }
 
 .nav-links a{
-    color: #EEEEEE;
-    font-weight: 500;
-    transition: 0.3s;
+    font-weight: 300;
+  
 }
 
 .nav-links a:hover{
-    color: #00ADB5;;
+    font-weight: 500;
+    color: #00ADB5;
+    text-decoration: underline;
+    transition: 0.3s all ease;
+    transform: scale(1.02);
+    
 }
+
+/* Hero Section Styling */
+.hero-section{
+    padding: 80px 10%;
+    background-color: #3b394644;
+    /* background-color: #f9fbfd; */
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:50px;
+    align-items: center;
+}
+.hero-content h1{
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #222831;
+    /* color:#222; */
+}
+
+.hero-content p{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #222831;
+    /* color: #666; */
+}
+
+.btn-primary, .btn-secondary{
+    background: #00ADB5;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.btn-primary:hover, .btn-secondary:hover{
+    transition: all 0.3s ease;
+    /* background: #222831; */
+    background: linear-gradient(to left, #00ADB5, #222831);
+    text-transform:uppercase;
+}
+
+.hero-image img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
