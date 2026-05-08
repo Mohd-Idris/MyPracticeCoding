@@ -37,6 +37,10 @@ header {
     color: #00ADB5;
     transition: 0.3s;
 }
+.logo a .span:hover{
+     color: #EEEEEE;
+    transition: 0.3s;
+}
 
 .nav-links{
     display: flex;
@@ -110,7 +114,7 @@ header {
 
 footer{
     background-color: #222831;
-    padding: 40px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
