@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyDesign About Us Page</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- A link to generate icons for the website -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Header Section -->
@@ -30,24 +38,69 @@
       </nav>
     </header>
     <main>
+      <!-- About Section -->
       <section class="about-section">
-        <div class="container">
-          <div class="about-content">
-            <h2>
-              <span class="span">A</span>bout <span class="span">O</span>ur
-              <span class="span">C</span>ompany
-            </h2>
-            <p>
-              Founded in early 2026, our mission is to provide high-quality
-              digital solutions for businesses worldwide. We believe in
-              innovation, integrity, and customer success.
-            </p>
-          </div>
-          <div class="about-img">
-            <img src="https://placehold.co/600x400" alt="A dummy image" />
-          </div>
+        <div class="about-content">
+          <h2 class="h2-about">
+            <span class="span">A</span>bout <span class="span">O</span>ur
+            <span class="span">C</span>ompany
+          </h2>
+          <p>
+            Founded in early 2026, our mission is to provide high-quality
+            digital solutions for businesses worldwide. We believe in
+            innovation, integrity, and customer success.
+          </p>
+        </div>
+        <div class="about-img">
+          <!-- <img src="https://placehold.co/600x400" alt="A dummy image" /> -->
+          <img src="./Images/About.jpg" alt="A company picture" srcset="" />
         </div>
       </section>
     </main>
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <p>&copy; 2026 MyDesign Company | All rights reserved</p>
+          <div class="social-icons">
+            <!-- Youtube Icon -->
+            <a
+              href="https://www.youtube.com"
+              target="_blank"
+              aria-label="Youtube"
+              title="Youtube"
+            >
+              <i class="fa-brands fa-youtube you-red"></i>
+            </a>
+            <!-- LinkedIN Icon -->
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              aria-label="LinkedIN"
+              title="LinkedIN"
+            >
+              <i class="fa-brands fa-square-linkedin link-blue"></i>
+            </a>
+            <!-- X Icon -->
+            <a
+              href="https://www.x.com"
+              target="_blank"
+              aria-label="X Website"
+              title="X Website"
+            >
+              <i class="fa-brands fa-x-twitter x-black"></i>
+            </a>
+          </div>
+          <ul class="footer-links">
+            <!-- <li><a href="#">Home</a></li> -->
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./Service.html">Services</a></li>
+            <li><a href="./ContactUs.html">Contact Us</a></li>
+            <li><a href="#">Term of Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

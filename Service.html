@@ -5,33 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyDesign Service Page</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- A link to generate icons for the website -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body>
-    <!-- Header Section -->
-    <header>
-      <div class="logo">
-        <a href="#">My<span class="span">Design</span></a>
+  <body class="services-body">
+    <main>
+      <!-- Header Section -->
+      <header>
+        <div class="logo">
+          <a href="#">My<span class="span">Design</span></a>
+        </div>
+
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a href="./index.html" target="_blank">Home</a>
+            </li>
+
+            <li>
+              <a href="./About.html" target="_blank">About</a>
+            </li>
+
+            <li>
+              <a href="./ContactUs.html" target="_blank">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Services Section -->
+      <section class="services-section">
+        <h2 class="h2-services">
+          <span class="span">O</span>ur <span class="span">S</span>ervices
+        </h2>
+        <div class="services-content">
+          <div class="1st-service card">
+            <h3>
+              <i class="fa-solid fa-laptop"></i>
+              Web Design
+            </h3>
+            <p>
+              Modern responsive designs that look great on any screen device.
+            </p>
+          </div>
+
+          <div class="2nd-service card">
+            <h3>
+              <i class="fa-solid fa-mobile"></i>
+              App Development
+            </h3>
+            <p>Building powerful mobile applications for iOS and Android.</p>
+          </div>
+
+          <div class="3rd-service card">
+            <h3>
+              <i class="fa-brands fa-searchengin"></i>
+              Digital Marketing
+            </h3>
+            <p>
+              Strategies to help your brand reach the right audience online.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <p>&copy; 2026 MyDesign Company | All rights reserved</p>
+          <div class="social-icons">
+            <!-- Youtube Icon -->
+            <a
+              href="https://www.youtube.com"
+              target="_blank"
+              aria-label="Youtube"
+              title="Youtube"
+            >
+              <i class="fa-brands fa-youtube you-red"></i>
+            </a>
+            <!-- LinkedIN Icon -->
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              aria-label="LinkedIN"
+              title="LinkedIN"
+            >
+              <i class="fa-brands fa-square-linkedin link-blue"></i>
+            </a>
+            <!-- X Icon -->
+            <a
+              href="https://www.x.com"
+              target="_blank"
+              aria-label="X Website"
+              title="X Website"
+            >
+              <i class="fa-brands fa-x-twitter x-black"></i>
+            </a>
+          </div>
+          <ul class="footer-links">
+            <!-- <li><a href="#">Home</a></li> -->
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./Service.html">Services</a></li>
+            <li><a href="./ContactUs.html">Contact Us</a></li>
+            <li><a href="#">Term of Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
       </div>
-
-      <nav>
-        <ul class="nav-links">
-          <li>
-            <a href="#">Home</a>
-          </li>
-
-          <li>
-            <a href="./index.html" target="_blank">Home</a>
-          </li>
-
-          <li>
-            <a href="./About.html" target="_blank">About</a>
-          </li>
-
-          <li>
-            <a href="./ContactUs.html" target="_blank">Contact Us</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    </footer>
   </body>
 </html>
