@@ -276,8 +276,13 @@ footer {
   margin-top: 10px;
 }
 
-.footer-links a {
+.footer-links a,
+.footer-links p {
   color: rgb(187, 187, 187);
+}
+
+.footer-links p i {
+  color: #00adb5;
 }
 
 .footer-links a:hover {
